@@ -1,0 +1,197 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    min-width: 1024px;
+    font-family: Helvetica, Arial;
+    text-align:center;
+    background: url("stripe.png");
+    color: #333;
+}
+
+#header{
+    -webkit-box-shadow: inset 0 0 20px rgba(0,0,0, 0.3), 0 10px 30px
+    rgba(0,0,0,0.3);
+    margin-top: 30px;
+    background:#333;
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+    position:relative;
+    z-index:99;
+}
+
+#content{
+    margin:auto;
+    z-index:0;
+    background:#DDD;
+    border: 1px solid #555;
+    -webkit-box-shadow: inset 0 0 20px rgba(0,0,0, 0.2), 0 10px 30px
+    rgba(0,0,0,0.3);
+    border-radius: 0 0 30px 30px;
+    margin-top:-10px;
+    margin-bottom:20px;
+    width:800px;
+    font-size:20px;
+    text-align:left;
+
+    padding:40px 60px 20px 60px;
+}
+
+h1{
+    font-size:3em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color:#EEE;
+}
+
+h2{
+    margin-top:-10px;
+    margin-bottom:20px;
+    color: #999;   
+}
+
+a{
+    color:#999;
+    border-bottom:2px solid #CCC;
+    text-decoration:none;
+}
+
+table{
+    margin:auto;
+    margin-top:50px;
+}
+
+table td{
+    text-align:center;
+    font-size:2.5em;
+    padding:10px;
+}
+table td input{
+    width:80px;    
+}
+
+#f1, #f2, #f3, #f4, #f5, #f6, #f7, #f8, #f9 {
+    background:#CCC;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    
+    border: 1px solid #AAA;
+    -webkit-box-shadow: 0px 5px 10px rgba(0,0,0, 0.2);
+    -moz-box-shadow: 0px 5px 10px rgba(0,0,0, 0.2);
+}
+
+button{
+    margin-top:10px;
+}
+
+.inp{
+    background: #AAA;
+    border: 1px solid #888;
+    -webkit-box-shadow: 0px 5px 10px rgba(0,0,0, 0.2);
+    -moz-box-shadow: 0px 5px 10px rgba(0,0,0, 0.2);
+    padding:10px;
+    border-radius:10px;
+    -moz-border-radius:10px;
+}
+
+.op{
+    _background: black;
+}
+
+.inp input{
+    border: 1px solid #888;
+    border-radius:5px;
+    padding:5px;
+    color:#333;
+    -moz-border-radius:5px;
+    background: #CCC;
+    font-size:0.5em;
+}
+
+.inp input:focus {
+    outline:none;
+    
+    border: 1px solid #666;
+    border: 1px solid #888;
+    -webkit-box-shadow: inset 0px 0px 5px rgba(0,0,0, 0.4);
+    -moz-box-shadow: inset 0px 0px 5px rgba(0,0,0, 0.4);
+
+}
+
+#settings{
+    margin-top:30px;
+}
+
+#settings button{
+    border: 2px solid white;
+    font-size:25px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    color:white;
+    background:#333;
+
+}
+
+#settings button:active {
+    -webkit-box-shadow: inset 0 0 20px rgba(0,0,0, 0.6);
+    -moz-box-shadow: inset 0px 0px 5px rgba(0,0,0, 0.4);
+}
+
+#settings button:hover{
+    background: #555;
+}
+
+#content p{
+    margin-bottom:15px;
+    line-height:30px;
+}
+
+.equal{
+    -webkit-transform: rotate(90deg);
+}
+
+.jqmWindow {
+    display: none;
+    
+    position: fixed;
+    top: 17%;
+    left: 40%;
+    
+    margin-left: -300px;
+    width: 800px;
+    
+    background-color: #DDD;
+    border: 4px solid white;
+    border-radius:10px;
+    padding: 12px;
+    font-size: 1.3em;
+    text-align:left;
+    -webkit-box-shadow: inset 0 0 1px black, 0 2px 100em black;
+}
+
+.jqmOverlay { 
+    background: url("stripe.png"); 
+}
+
+.jqmClose{
+    text-decoration: none;
+    position:absolute;
+    top:-30px;
+    right:-10px;
+    color:red;
+    -webkit-text-stroke: 2px white;
+    -webkit-transition: all 0.5s ease-in-out;
+    text-shadow: 0 0 2px black;
+    font-size:3em;
+    font-weight:bold;
+}
+
+.jqmClose:hover {
+    font-size:3em;
+    color:#b90202;
+    -webkit-text-stroke: 2px #999;
+    text-shadow: 0 0 10px black;
+}

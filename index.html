@@ -1,0 +1,190 @@
+<html>
+<head>
+    <link rel="stylesheet" href="master.css"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Webechsen - Zahlenquadrat</title>
+</head>
+<body>
+</body>
+    <div id="header">
+	    <h1>Zahlenquadrat</h1>
+        <h2>Ein Projekt von <a href="http://www.webechsen.de/dennis">Dennis Paulig</a>
+        und <a href="http://www.webechsen.de/lukas">Lukas Havemann</a></h2>
+    </div>
+    <div id="content">
+        <p>
+            Diese Projektidee entstand nach dem Ratespiel "Zahlenquadrat", denn es
+            interessierte uns, ob es möglich ist, ein optimales Löseprogramm zu
+            programmieren. Die erste Version arbeitete mit Zufall, um alle 362880
+            möglichen Lösungen zu erzeugen. Damit erreichten wir eine
+            durchschnittliche Zeit von 1 Minute.<br>
+            Dank einer neuen Idee, das bilden der Zahlen nach dem
+            Anagrammerzeugungsverfahren, dauert das Lösen einer Aufgabe
+            durchschnittlich 10 Millisekunden. Dabei werden auf jedenfall alle
+            möglichen Lösungen getestet und ausgegeben.</p><p>
+
+            Geben Sie dazu die Lösungen und die Operatoren der Gleichungen an und
+            drücken Sie auf "Los jetzt".
+        </p>
+	<table>
+		<tr>
+			<td id="f1">0</td>
+			<td class="op">
+				<select size="1" id="o1">
+        			<option value="+">+</option>
+        			<option value="-">-</option>
+        			<option value="*">*</option>
+        			<option value="/">/</option>
+      			</select>
+			</td>
+			<td id="f2">0</td>
+			<td class="op">
+				<select size="1" id="o2">
+        			<option value="+">+</option>
+        			<option value="-">-</option>
+        			<option value="*">*</option>
+        			<option value="/">/</option>
+      			</select>
+			</td>
+			<td id="f3">0</td>
+			<td>=</td>
+			<td class="inp"><input type="number" size="4" id="i1" value="6"/></td>
+		</tr>
+		<tr>
+			<td class="op">
+				<select size="1" id="o3">
+        			<option value="+">+</option>
+        			<option value="-">-</option>
+        			<option value="*">*</option>
+        			<option value="/">/</option>
+      			</select>
+			</td>
+			<td></td>
+			<td class="op">
+				<select size="1" id="o4">
+        			<option value="+">+</option>
+        			<option value="-">-</option>
+        			<option value="*">*</option>
+        			<option value="/">/</option>
+      			</select>
+			</td>
+			<td></td>
+			<td class="op">
+				<select size="1" id="o5">
+        			<option value="+">+</option>
+        			<option value="-">-</option>
+        			<option value="*">*</option>
+        			<option value="/">/</option>
+      			</select>
+			</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td id="f4">0</td>
+			<td class="op">
+				<select size="1" id="o6">
+        			<option value="+">+</option>
+        			<option value="-">-</option>
+        			<option value="*">*</option>
+        			<option value="/">/</option>
+      			</select>
+			</td>
+			<td id="f5">0</td>
+			<td class="op">
+				<select size="1" id="o7">
+        			<option value="+">+</option>
+        			<option value="-">-</option>
+        			<option value="*">*</option>
+        			<option value="/">/</option>
+      			</select>
+			</td>
+			<td id="f6">0</td>
+			<td>=</td>
+			<td class="inp"><input type="number" size="4" value="15" id="i2"/></td>
+		</tr>
+		<tr>
+			<td class="op">
+				<select size="1" id="o8">
+        			<option value="+">+</option>
+        			<option value="-">-</option>
+        			<option value="*">*</option>
+        			<option value="/">/</option>
+      			</select>
+			</td>
+			<td></td>
+			<td class="op">
+				<select size="1" id="o9">
+        			<option value="+">+</option>
+        			<option value="-">-</option>
+        			<option value="*">*</option>
+        			<option value="/">/</option>
+      			</select>
+			</td>
+			<td></td>
+			<td class="op">
+				<select size="1" id="o10">
+        			<option value="+">+</option>
+        			<option value="-">-</option>
+        			<option value="*">*</option>
+        			<option value="/">/</option>
+      			</select>
+			</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td id="f7">0</td>
+			<td class="op">
+				<select size="1" id="o11">
+        			<option value="+">+</option>
+        			<option value="-">-</option>
+        			<option value="*">*</option>
+        			<option value="/">/</option>
+      			</select>
+			</td>
+			<td id="f8">0</td>
+			<td class="op">
+				<select size="1" id="o12">
+        			<option value="+">+</option>
+        			<option value="-">-</option>
+        			<option value="*">*</option>
+        			<option value="/">/</option>
+      			</select>
+			</td>
+			<td id="f9">0</td>
+			<td>=</td>
+			<td class="inp"><input type="number" size="4" value="24" id="i3"/></td>
+		</tr>
+		<tr>
+			<td class="equal">=</td><td></td><td
+                class="equal">=</td><td></td><td 
+                class="equal">=</td><td></td><td></td>
+		</tr>
+		<tr>
+			<td class="inp"><input type="number" size="4" value="12" id="i6"/></td>
+			<td></td>
+			<td class="inp"><input type="number" size="4" value="15" id="i5"/></td>
+			<td></td>
+			<td class="inp"><input type="number" size="4" value="18" id="i4"/></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+    <div id="settings">
+    	<center><button id="run"> Los jetzt! </button></center>
+    </div>
+    
+    <table id="output">
+      <tr>
+        <th>Nummer</th>
+        <th>Zahlenfolge</th>
+      </tr>
+    </table>
+
+    </div>
+	
+	<script src="jquery.js"></script>
+	<script src="webui.js"> </script>
+	<script src="app.js"> </script>
+</html>

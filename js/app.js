@@ -8,8 +8,8 @@ function upView(lsg){
 	    for(var i = 1; i<10; i++)
 		    $("#f" + i).html(lsg[0][i-1])
     
-        for(var j=0; j < lsg.length; j++){
-            $("#output").append("<tr><td>" + (j+1) + "</td><td>" 
+        for (var j = 0; j < lsg.length; j++) {
+            $("#output").append("<tr><td>" + (j + 1) + "</td><td>"
             + lsg[j] + "</td></tr>");
         }
 

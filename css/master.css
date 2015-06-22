@@ -7,7 +7,7 @@ body{
     min-width: 1024px;
     font-family: Helvetica, Arial;
     text-align:center;
-    background: url("stripe.png");
+    background: url("../img/stripe.png");
     color: #333;
 }
 

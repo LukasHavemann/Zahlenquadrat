@@ -4,8 +4,8 @@ Der [Zahlenquadrat Solver](http://lukashavemann.github.io/Zahlenquadrat) errechn
 
 ## Über das Projekt
 
-Diese Projektidee entstand nach dem Ratespiel "Zahlenquadrat", denn es interessierte 
-uns, ob es möglich ist, ein optimales Löseprogramm zu programmieren. Die erste Version 
+Diese Projektidee entstand nach dem Ratespiel "Zahlenquadrat" im Jahre 2011. Es interessierte 
+uns, ob es möglich ist, ein optimales Löseprogramm für das Ratespiel zu programmieren. Die erste Version 
 arbeitete mit Zufall, um alle 362880 möglichen Lösungen zu erzeugen. 
 
 Damit erreichten wir eine durchschnittliche Zeit von 1 Minute.
